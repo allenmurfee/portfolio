@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Nav />
-      <h1>Hey...welcome to my portfolio!</h1>
+      <h1>Hey...Welcome to my Portfolio!</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
