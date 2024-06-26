@@ -11,10 +11,6 @@ function useNav() {
   return (
     <Navbar fluid rounded>
       <ProfileAvatar />
-      <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-        Flowbite React
-      </span>
-
       <NavbarToggle />
       <NavbarCollapse>
         <NavbarLink href="#" active>
@@ -22,6 +18,7 @@ function useNav() {
         </NavbarLink>
         <NavbarLink href="#">About</NavbarLink>
         <NavbarLink href="#">Work Experience</NavbarLink>
+        <NavbarLink href="#">Recommendations</NavbarLink>
         <NavbarLink href="#">Education</NavbarLink>
         <NavbarLink href="#">Projects</NavbarLink>
         <NavbarLink href="#">Contact</NavbarLink>
