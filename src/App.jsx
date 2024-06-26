@@ -10,15 +10,8 @@ function App() {
   return (
     <>
       <Nav />
-      <h1>Hey...Welcome to my Portfolio!</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
+      <h2>Hello World!</h2>
+      <h1>My name is Allen Murfee and I'm a software developer.</h1>
     </>
   );
 }
