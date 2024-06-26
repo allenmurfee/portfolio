@@ -5,20 +5,16 @@ import {
   NavbarLink,
   NavbarToggle,
 } from "flowbite-react";
+import ProfileAvatar from "./ProfileAvatar";
 
 function useNav() {
   return (
     <Navbar fluid rounded>
-      <NavbarBrand href="#">
-        <img
-          src="/favicon.svg"
-          className="mr-3 h-6 sm:h-9"
-          alt="Allen Murfee photo"
-        />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Flowbite React
-        </span>
-      </NavbarBrand>
+      <ProfileAvatar />
+      <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+        Flowbite React
+      </span>
+
       <NavbarToggle />
       <NavbarCollapse>
         <NavbarLink href="#" active>
