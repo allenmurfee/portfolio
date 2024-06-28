@@ -1,5 +1,6 @@
 import Contact from "../components/Contact";
 import { List } from "flowbite-react";
+import Work from "../components/Work";
 
 function useHome() {
   return (
@@ -18,6 +19,7 @@ function useHome() {
         <List.Item>• Go Hokies and Go Cowboys! 🦃🤠</List.Item>
       </List>
 
+      <Work />
       <Contact />
     </div>
   );
