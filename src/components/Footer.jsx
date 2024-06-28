@@ -7,7 +7,7 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 
-function useFooter() {
+const useFooter = () => {
   return (
     <Footer container>
       <div className="w-full">
@@ -58,6 +58,6 @@ function useFooter() {
       </div>
     </Footer>
   );
-}
+};
 
 export default useFooter;

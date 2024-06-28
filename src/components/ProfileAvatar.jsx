@@ -1,6 +1,6 @@
 import { Avatar } from "flowbite-react";
 
-function useProfileAvatar() {
+const useProfileAvatar = () => {
   return (
     <div className="flex flex-wrap gap-2">
       <a href="#">
@@ -13,6 +13,6 @@ function useProfileAvatar() {
       </a>
     </div>
   );
-}
+};
 
 export default useProfileAvatar;

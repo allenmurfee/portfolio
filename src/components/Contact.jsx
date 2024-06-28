@@ -1,6 +1,6 @@
 import { Label, TextInput } from "flowbite-react";
 
-export function useContact() {
+const useContact = () => {
   return (
     <div className="flex max-w-md flex-col gap-4">
       <div>
@@ -35,6 +35,6 @@ export function useContact() {
       </div>
     </div>
   );
-}
+};
 
 export default useContact;

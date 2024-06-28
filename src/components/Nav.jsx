@@ -7,7 +7,7 @@ import {
 } from "flowbite-react";
 import ProfileAvatar from "./ProfileAvatar";
 
-function useNav() {
+const useNav = () => {
   return (
     <Navbar className="bg-zinc-700" fluid rounded>
       <ProfileAvatar />
@@ -37,6 +37,6 @@ function useNav() {
       </NavbarCollapse>
     </Navbar>
   );
-}
+};
 
 export default useNav;

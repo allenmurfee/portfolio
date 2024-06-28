@@ -2,7 +2,7 @@ import Contact from "../components/Contact";
 import { List } from "flowbite-react";
 import Work from "../components/Work";
 
-function useHome() {
+const useHome = () => {
   return (
     <div className="bg-zinc-700">
       <div className="container mx-auto mt-14">
@@ -23,6 +23,6 @@ function useHome() {
       <Contact />
     </div>
   );
-}
+};
 
 export default useHome;
