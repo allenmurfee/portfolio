@@ -9,19 +9,31 @@ import ProfileAvatar from "./ProfileAvatar";
 
 function useNav() {
   return (
-    <Navbar fluid rounded>
+    <Navbar className="bg-zinc-700" fluid rounded>
       <ProfileAvatar />
       <NavbarToggle />
       <NavbarCollapse>
         <NavbarLink href="#" active>
           Home
         </NavbarLink>
-        <NavbarLink href="#">About</NavbarLink>
-        <NavbarLink href="#">Work Experience</NavbarLink>
-        <NavbarLink href="#">Recommendations</NavbarLink>
-        <NavbarLink href="#">Education</NavbarLink>
-        <NavbarLink href="#">Projects</NavbarLink>
-        <NavbarLink href="#">Contact</NavbarLink>
+        <NavbarLink className="text-white" href="#">
+          About
+        </NavbarLink>
+        <NavbarLink className="text-white" href="#">
+          Work Experience
+        </NavbarLink>
+        <NavbarLink className="text-white" href="#">
+          Recommendations
+        </NavbarLink>
+        <NavbarLink className="text-white" href="#">
+          Education
+        </NavbarLink>
+        <NavbarLink className="text-white" href="#">
+          Projects
+        </NavbarLink>
+        <NavbarLink className="text-white" href="#">
+          Contact
+        </NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );

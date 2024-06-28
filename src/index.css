@@ -32,6 +32,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  @apply bg-zinc-700 min-h-screen;
 }
 
 h1 {
