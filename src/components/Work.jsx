@@ -24,20 +24,38 @@ const useWorkExperience = () => {
   ];
 
   return (
-    <div>
-      <div className="flex justify-center">
-        <ListGroup className="w-3/4 mt-10">
+    <div className="mb-4">
+      <div className="p-4 pr-6 pl-6 mt-4 mb-2 m-auto border rounded-lg border-white">
+        <p className="text-left text-yellow-200 hover:text-sky-400 underline strong">
+          Experience
+        </p>
+        {resume.map((role, index) => (
+          <div className="text-white flex justify-between" key={index}>
+            <p>
+              {role.title}, {role.company}
+            </p>
+            <p>
+              {role.startDate} - {role.endDate}
+            </p>
+          </div>
+        ))}
+
+        {/* <ListGroup className="flex flex-col w-5/6 mt-10">
           {resume.map((role, index) => (
             <ListGroup.Item key={index}>
-              {role.title}
-              {role.company}
-              {role.startDate} - {role.endDate}
+              <div className="flex justify-between">
+                <p>{role.title}</p>
+                <p>{role.company}</p>
+                <p>
+                  {role.startDate} - {role.endDate}
+                </p>
+              </div>
             </ListGroup.Item>
           ))}
-        </ListGroup>
+        </ListGroup> */}
       </div>
       <div className="flex flex-wrap gap-2">
-        <Button>
+        <Button color="light">
           <HiArrowCircleDown className="mr-2 h-5 w-5" />
           Download Resume
         </Button>
