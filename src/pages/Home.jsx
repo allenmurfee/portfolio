@@ -1,6 +1,7 @@
 import Contact from "../components/Contact";
 import { List } from "flowbite-react";
 import Work from "../components/Work";
+import Recommendations from "../components/Recommendations";
 
 const useHome = () => {
   return (
@@ -20,6 +21,7 @@ const useHome = () => {
       </List>
 
       <Work />
+      <Recommendations />
       <Contact />
     </div>
   );
