@@ -3,7 +3,7 @@ import { HiArrowNarrowRight, HiExternalLink } from "react-icons/hi";
 
 const useEducation = () => {
   return (
-    <div>
+    <div className="w-1/3">
       <h2 className="text-left text-amber-200 text-2xl mb-4 font-bold">
         Education
       </h2>
@@ -63,7 +63,7 @@ const useEducation = () => {
               August 2017 - August 2018
             </Timeline.Time>
             <Timeline.Title className="text-amber-200">
-              Associate Degree, Mass Communications
+              Associate Degree, General Studies
             </Timeline.Title>
             <Timeline.Body className="text-white text-left">
               John Tyler Community College, 4.0 GPA

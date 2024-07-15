@@ -3,7 +3,7 @@ import { HiArrowNarrowRight, HiExternalLink } from "react-icons/hi";
 
 const useRecommendations = () => {
   return (
-    <div>
+    <div className="w-3/5">
       <h2 className="text-left text-amber-200 text-2xl mb-4 font-bold">
         Recommendations
       </h2>
@@ -24,6 +24,7 @@ const useRecommendations = () => {
             </Timeline.Body>
             <Button
               color="gray"
+              className="outline outline-sky-300"
               onClick={() =>
                 (window.location.href =
                   "https://www.linkedin.com/in/austinhague/")
@@ -50,6 +51,7 @@ const useRecommendations = () => {
             </Timeline.Body>
             <Button
               color="gray"
+              className="outline outline-sky-300"
               onClick={() =>
                 (window.location.href =
                   "https://www.linkedin.com/in/ryan-t-case/")
