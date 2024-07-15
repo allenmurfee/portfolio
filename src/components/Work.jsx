@@ -1,5 +1,5 @@
 import { ListGroup, Button } from "flowbite-react";
-import { HiArrowCircleDown } from "react-icons/hi";
+import { HiArrowCircleDown, HiExternalLink } from "react-icons/hi";
 
 const useWorkExperience = () => {
   let resume = [
@@ -24,13 +24,13 @@ const useWorkExperience = () => {
   ];
 
   return (
-    <div className="mb-5">
-      <div className="p-4 pr-6 pl-6 mt-4 mb-4 m-auto border rounded-lg border-white">
-        <p className="text-left text-amber-200 hover:text-sky-400 underline strong">
-          Experience
-        </p>
+    <div className="w-3/5">
+      <div className="p-4 pr-6 pl-6 mt-2 mb-4 m-auto border rounded-lg border-white">
+        <h2 className="text-left text-amber-200 text-2xl mb-6 font-bold">
+          My Work Experience
+        </h2>
         {resume.map((role, index) => (
-          <div className="text-white flex justify-between" key={index}>
+          <div className="text-white flex justify-between mb-2" key={index}>
             <p>
               {role.title}, {role.company}
             </p>
@@ -55,9 +55,13 @@ const useWorkExperience = () => {
         </ListGroup> */}
       </div>
       <div className="flex flex-wrap gap-2">
-        <Button color="light">
+        <Button color="light" className="outline outline-sky-300 mr-2">
           <HiArrowCircleDown className="mr-2 h-5 w-5" />
           Download Resume
+        </Button>
+        <Button color="light" className="outline outline-sky-300">
+          <HiExternalLink className="mr-2 h-5 w-5" />
+          View LinkedIn
         </Button>
       </div>
     </div>
