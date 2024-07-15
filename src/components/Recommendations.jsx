@@ -3,15 +3,15 @@ import { HiArrowNarrowRight, HiCalendar } from "react-icons/hi";
 
 const useRecommendations = () => {
   return (
-    <Timeline>
+    <Timeline className="p-4">
       <Timeline.Item>
         <Timeline.Point />
-        <Timeline.Content>
-          <Timeline.Time>June 2024</Timeline.Time>
-          <Timeline.Title>
+        <Timeline.Content className="flex flex-col items-start">
+          <Timeline.Time className="text-slate-200">June 2024</Timeline.Time>
+          <Timeline.Title className="text-amber-200">
             Austin Hague, Software Engineer at Microsoft
           </Timeline.Title>
-          <Timeline.Body>
+          <Timeline.Body className="text-white text-left">
             "Allen is a dedicated software engineer, who consistently
             demonstrated strong problem-solving skills and a passion for
             learning. His collaborative mindset and attention to detail make him
@@ -32,12 +32,12 @@ const useRecommendations = () => {
       </Timeline.Item>
       <Timeline.Item>
         <Timeline.Point />
-        <Timeline.Content>
-          <Timeline.Time>June 2024</Timeline.Time>
-          <Timeline.Title>
+        <Timeline.Content className="flex flex-col items-start">
+          <Timeline.Time className="text-slate-200">June 2024</Timeline.Time>
+          <Timeline.Title className="text-amber-200">
             Ryan Case, Software Engineer at Mission Lane
           </Timeline.Title>
-          <Timeline.Body>
+          <Timeline.Body className="text-white text-left">
             "I have been very impressed to watch Allen's growth as a software
             engineer in such a short period of time. He has demonstrated the
             ability to learn new technologies quickly and solve complex problems

@@ -24,9 +24,9 @@ const useWorkExperience = () => {
   ];
 
   return (
-    <div className="mb-4">
-      <div className="p-4 pr-6 pl-6 mt-4 mb-2 m-auto border rounded-lg border-white">
-        <p className="text-left text-yellow-200 hover:text-sky-400 underline strong">
+    <div className="mb-5">
+      <div className="p-4 pr-6 pl-6 mt-4 mb-4 m-auto border rounded-lg border-white">
+        <p className="text-left text-amber-200 hover:text-sky-400 underline strong">
           Experience
         </p>
         {resume.map((role, index) => (
