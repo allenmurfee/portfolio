@@ -30,11 +30,16 @@ const useWorkExperience = () => {
           My Work Experience
         </h2>
         {resume.map((role, index) => (
-          <div className="text-white flex justify-between mb-2" key={index}>
-            <p>
-              {role.title}, {role.company}
-            </p>
-            <p>
+          <div
+            className="text-white flex flex-col md:flex-row  md:justify-between mb-2"
+            key={index}
+          >
+            <div>
+              <p className="text-left font-extrabold">{role.company}</p>
+              <p className="text-left">{role.title}</p>
+            </div>
+
+            <p className="text-left md:text-right italic">
               {role.startDate} - {role.endDate}
             </p>
           </div>
