@@ -13,25 +13,28 @@ const useNav = () => {
       <ProfileAvatar />
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink href="#" active>
+        <NavbarLink href="#" className="text-white">
           Home
         </NavbarLink>
-        <NavbarLink className="text-white" href="#">
+        <NavbarLink
+          className="active:text-amber-200 text-white hover:text-amber-300"
+          href="#"
+        >
           About
         </NavbarLink>
-        <NavbarLink className="text-white" href="#">
+        <NavbarLink className="active:text-amber-200 text-white" href="#">
           Work Experience
         </NavbarLink>
-        <NavbarLink className="text-white" href="#">
+        <NavbarLink className="active:text-amber-200 text-white" href="#">
           Recommendations
         </NavbarLink>
-        <NavbarLink className="text-white" href="#">
+        <NavbarLink className="active:text-amber-200 text-white" href="#">
           Education
         </NavbarLink>
-        <NavbarLink className="text-white" href="#">
+        <NavbarLink className="active:text-amber-200 text-white" href="#">
           Projects
         </NavbarLink>
-        <NavbarLink className="text-white" href="#">
+        <NavbarLink className="active:text-amber-200 text-white" href="#">
           Contact
         </NavbarLink>
       </NavbarCollapse>

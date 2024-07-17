@@ -53,7 +53,7 @@ const useContact = () => {
             placeholder="Write me an email!"
           />
         </div>
-        <Button color="light" className="w-1/2 outline outline-amber-200 mt-2">
+        <Button color="gray" className="w-1/2 outline outline-amber-200 mt-2">
           <HiOutlineMail className="mr-2 h-5 w-5" />
           Send Message
         </Button>

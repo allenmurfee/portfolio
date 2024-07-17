@@ -5,10 +5,11 @@ const useProfileAvatar = () => {
     <div className="flex flex-wrap gap-2">
       <a href="#">
         <Avatar
-          href="#"
-          img="/public/allenmurfee.jpg"
+          img="/public/allen.jpg"
           rounded
-          alt="Allen Murfee photo"
+          bordered
+          color="gray"
+          size="md"
         />
       </a>
     </div>
