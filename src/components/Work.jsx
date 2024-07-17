@@ -24,7 +24,7 @@ const useWorkExperience = () => {
   ];
 
   return (
-    <div className="w-full md:w-1/2 md:mr-2">
+    <div className="w-full md:w-7/12 md:mr-3">
       <div className="p-4 pr-6 pl-6 mb-4 m-auto border rounded-lg border-white">
         <h2 className="text-left text-amber-200 text-3xl mb-6 font-bold">
           My Work Experience
@@ -41,12 +41,12 @@ const useWorkExperience = () => {
         ))}
       </div>
       <div className="flex flex-wrap gap-2 mb-10 md:mb-auto">
-        <Button color="light" className="outline outline-sky-300 mr-2">
-          <HiArrowCircleDown className="mr-2 h-5 w-5" />
+        <Button color="light" className="outline outline-amber-200 mr-2">
+          <HiArrowCircleDown className="mr-1 h-5 w-5" />
           Download Resume
         </Button>
-        <Button color="light" className="outline outline-sky-300">
-          <HiExternalLink className="mr-2 h-5 w-5" />
+        <Button color="light" className="outline outline-amber-200">
+          <HiExternalLink className="mr-1 h-5 w-5" />
           View LinkedIn
         </Button>
       </div>

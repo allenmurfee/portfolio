@@ -20,25 +20,25 @@ const useProjects = () => {
           </p>
           <Button
             color="gray"
-            className="outline outline-sky-300"
+            className="outline outline-amber-200"
             onClick={() =>
               (window.location.href =
                 "https://www.linkedin.com/in/austinhague/")
             }
           >
+            <HiExternalLink className="mr-1 h-5 w-5" />
             View App
-            <HiExternalLink className="ml-2 h-5 w-5" />
           </Button>
           <Button
             color="gray"
-            className="outline outline-sky-300"
+            className="outline outline-amber-200"
             onClick={() =>
               (window.location.href =
                 "https://www.linkedin.com/in/austinhague/")
             }
           >
+            <BsGithub className="mr-1 h-5 w-5" />
             GitHub Repo
-            <BsGithub className="ml-2 h-5 w-5" />
           </Button>
         </Card>
         <Card className="max-w-xs md:max-w-sm lg:max-w-sm bg-zinc-800 mb-3 md:mr-3">
@@ -52,25 +52,25 @@ const useProjects = () => {
           </p>
           <Button
             color="gray"
-            className="outline outline-sky-300"
+            className="outline outline-amber-200"
             onClick={() =>
               (window.location.href =
                 "https://www.linkedin.com/in/austinhague/")
             }
           >
+            <HiExternalLink className="mr-1 h-5 w-5" />
             View App
-            <HiExternalLink className="ml-2 h-5 w-5" />
           </Button>
           <Button
             color="gray"
-            className="outline outline-sky-300"
+            className="outline outline-amber-200"
             onClick={() =>
               (window.location.href =
                 "https://www.linkedin.com/in/austinhague/")
             }
           >
+            <BsGithub className="mr-1 h-5 w-5" />
             GitHub Repo
-            <BsGithub className="ml-2 h-5 w-5" />
           </Button>
         </Card>
         <Card className="max-w-xs md:max-w-sm lg:max-w-sm bg-zinc-800 mb-3">
@@ -84,25 +84,25 @@ const useProjects = () => {
           </p>
           <Button
             color="gray"
-            className="outline outline-sky-300"
+            className="outline outline-amber-200"
             onClick={() =>
               (window.location.href =
                 "https://www.linkedin.com/in/austinhague/")
             }
           >
+            <HiExternalLink className="mr-1 h-5 w-5" />
             View App
-            <HiExternalLink className="ml-2 h-5 w-5" />
           </Button>
           <Button
             color="gray"
-            className="outline outline-sky-300"
+            className="outline outline-amber-200"
             onClick={() =>
               (window.location.href =
                 "https://www.linkedin.com/in/austinhague/")
             }
           >
+            <BsGithub className="mr-1 h-5 w-5" />
             GitHub Repo
-            <BsGithub className="ml-2 h-5 w-5" />
           </Button>
         </Card>
       </div>
