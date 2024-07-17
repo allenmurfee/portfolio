@@ -9,8 +9,11 @@ import Photos from "../components/Photos";
 const useHome = () => {
   return (
     <div className="bg-zinc-700">
-      <About />
-      <Photos />
+      <div className="flex flex-row justify-between mt-5 mb-20">
+        <About />
+        <Photos />
+      </div>
+
       <div className="flex flex-row justify-between mt-8">
         <Work />
         <Contact />
