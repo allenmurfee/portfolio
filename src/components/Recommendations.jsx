@@ -3,16 +3,16 @@ import { HiArrowNarrowRight, HiExternalLink } from "react-icons/hi";
 
 const useRecommendations = () => {
   return (
-    <div className="w-3/5">
-      <h2 className="text-left text-amber-200 text-2xl mb-4 font-bold">
+    <div className="w-full md:w-3/5">
+      <h2 className="text-left text-amber-200 text-3xl mb-4 font-bold">
         Recommendations
       </h2>
-      <Timeline className="p-4">
+      <Timeline className="p-4 mb-10 md:mb-auto">
         <Timeline.Item>
           <Timeline.Point />
           <Timeline.Content className="flex flex-col items-start">
             <Timeline.Time className="text-slate-200">June 2024</Timeline.Time>
-            <Timeline.Title className="text-amber-200">
+            <Timeline.Title className="text-amber-200 text-left">
               Austin Hague, Software Engineer at Microsoft
             </Timeline.Title>
             <Timeline.Body className="text-white text-left">
@@ -39,7 +39,7 @@ const useRecommendations = () => {
           <Timeline.Point />
           <Timeline.Content className="flex flex-col items-start">
             <Timeline.Time className="text-slate-200">June 2024</Timeline.Time>
-            <Timeline.Title className="text-amber-200">
+            <Timeline.Title className="text-amber-200 text-left">
               Ryan Case, Software Engineer at Mission Lane
             </Timeline.Title>
             <Timeline.Body className="text-white text-left">

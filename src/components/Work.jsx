@@ -24,9 +24,9 @@ const useWorkExperience = () => {
   ];
 
   return (
-    <div className="w-3/5">
+    <div className="w-full md:w-3/5">
       <div className="p-4 pr-6 pl-6 mt-2 mb-4 m-auto border rounded-lg border-white">
-        <h2 className="text-left text-amber-200 text-2xl mb-6 font-bold">
+        <h2 className="text-left text-amber-200 text-3xl mb-6 font-bold">
           My Work Experience
         </h2>
         {resume.map((role, index) => (
@@ -54,7 +54,7 @@ const useWorkExperience = () => {
           ))}
         </ListGroup> */}
       </div>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 mb-10 md:mb-auto">
         <Button color="light" className="outline outline-sky-300 mr-2">
           <HiArrowCircleDown className="mr-2 h-5 w-5" />
           Download Resume
