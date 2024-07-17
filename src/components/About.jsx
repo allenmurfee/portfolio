@@ -2,7 +2,7 @@ const useAbout = () => {
   return (
     <div className="w-full md:w-3/5 flex justify-center items-center flex-col">
       <div className="container">
-        <h1 className="text-left text-amber-200 italic text-6xl">Hello World! 👋</h1>
+        <h1 className="text-left text-amber-200  text-6xl">Hello World! 👋</h1>
         <h1 className="text-left mt-8 text-white">
           My name is Allen Murfee, and
         </h1>

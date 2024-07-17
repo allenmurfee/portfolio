@@ -3,7 +3,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const useContact = () => {
   return (
-    <div className="w-full md:w-1/3 border rounded-lg border-white p-4">
+    <div className="w-full md:w-1/2 md:ml-2 border rounded-lg border-white p-4">
       <div className="flex flex-col gap-4">
         <div>
           <h2 className="text-left text-amber-200 text-3xl font-bold">
@@ -12,19 +12,25 @@ const useContact = () => {
         </div>
         <div>
           <div className="mb-2 block">
-            <Label className="text-white" htmlFor="small" value="Email" />
-          </div>
-          <TextInput id="small" type="text" sizing="sm" />
-        </div>
-        <div>
-          <div className="mb-2 block">
             <Label className="text-white" htmlFor="small" value="First Name" />
           </div>
           <TextInput id="small" type="text" sizing="sm" />
+          <div className="mb-2 block">
+            <Label className="text-white" htmlFor="small" value="Last Name" />
+          </div>
+          <TextInput id="small" type="text" sizing="sm" />
         </div>
         <div>
           <div className="mb-2 block">
-            <Label className="text-white" htmlFor="small" value="Last Name" />
+            <Label className="text-white" htmlFor="small" value="Email" />
+          </div>
+          <TextInput id="small" type="text" sizing="sm" />
+          <div className="mb-2 block">
+            <Label
+              className="text-white"
+              htmlFor="small"
+              value="Phone Number"
+            />
           </div>
           <TextInput id="small" type="text" sizing="sm" />
         </div>
