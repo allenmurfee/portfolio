@@ -4,7 +4,7 @@ import { BsGithub } from "react-icons/bs";
 
 const useProjects = () => {
   return (
-    <div>
+    <div id="projects">
       <h2 className="text-left text-amber-200 text-3xl mb-4 font-bold">
         Projects
       </h2>

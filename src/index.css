@@ -71,3 +71,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.custom-navbar-link:hover {
+  color: #fde68a !important; /* Tailwind's amber-200 */
+}

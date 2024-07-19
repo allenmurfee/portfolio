@@ -3,7 +3,10 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const useContact = () => {
   return (
-    <div className="w-full md:w-5/12 md:ml-3 border rounded-lg border-white p-4">
+    <div
+      id="contact"
+      className="w-full md:w-5/12 md:ml-3 border rounded-lg border-white p-4"
+    >
       <div className="flex flex-col gap-4">
         <div>
           <h2 className="text-left text-amber-200 text-3xl font-bold">

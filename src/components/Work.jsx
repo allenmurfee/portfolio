@@ -24,7 +24,7 @@ const useWorkExperience = () => {
   ];
 
   return (
-    <div className="w-full md:w-7/12 md:mr-3">
+    <div id="work" className="w-full md:w-7/12 md:mr-3">
       <div className="p-4 pr-6 pl-6 mb-4 m-auto border rounded-lg border-white">
         <h2 className="text-left text-amber-200 text-3xl mb-6 font-bold">
           My Work Experience

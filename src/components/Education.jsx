@@ -3,7 +3,7 @@ import { HiArrowNarrowRight, HiExternalLink } from "react-icons/hi";
 
 const useEducation = () => {
   return (
-    <div className="w-full md:w-1/3">
+    <div id="education" className="w-full md:w-1/3">
       <h2 className="text-left text-amber-200 text-3xl mb-4 font-bold">
         Education
       </h2>
