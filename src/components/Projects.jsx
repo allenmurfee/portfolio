@@ -21,10 +21,7 @@ const useProjects = () => {
           <Button
             color="gray"
             className="outline outline-amber-200"
-            onClick={() =>
-              (window.location.href =
-                "https://young-island-68053.herokuapp.com/")
-            }
+            href="https://young-island-68053.herokuapp.com/"
           >
             <HiExternalLink className="mr-1 h-5 w-5" />
             View App
@@ -32,10 +29,7 @@ const useProjects = () => {
           <Button
             color="gray"
             className="outline outline-amber-200"
-            onClick={() =>
-              (window.location.href =
-                "https://github.com/allenmurfee/todo-list-app")
-            }
+            href="https://github.com/allenmurfee/todo-list-app"
           >
             <BsGithub className="mr-1 h-5 w-5" />
             GitHub Repo
@@ -53,10 +47,7 @@ const useProjects = () => {
           <Button
             color="gray"
             className="outline outline-amber-200"
-            onClick={() =>
-              (window.location.href =
-                "https://allenmurfee.github.io/pomodoro-technique/")
-            }
+            href="https://allenmurfee.github.io/pomodoro-technique/"
           >
             <HiExternalLink className="mr-1 h-5 w-5" />
             View App
@@ -64,10 +55,7 @@ const useProjects = () => {
           <Button
             color="gray"
             className="outline outline-amber-200"
-            onClick={() =>
-              (window.location.href =
-                "https://github.com/allenmurfee/pomodoro-technique")
-            }
+            href="https://github.com/allenmurfee/pomodoro-technique"
           >
             <BsGithub className="mr-1 h-5 w-5" />
             GitHub Repo
@@ -86,9 +74,7 @@ const useProjects = () => {
           <Button
             color="gray"
             className="outline outline-amber-200"
-            onClick={() =>
-              (window.location.href = "https://damp-forest-39395.herokuapp.com")
-            }
+            href="https://damp-forest-39395.herokuapp.com"
           >
             <HiExternalLink className="mr-1 h-5 w-5" />
             View App
@@ -96,10 +82,7 @@ const useProjects = () => {
           <Button
             color="gray"
             className="outline outline-amber-200"
-            onClick={() =>
-              (window.location.href =
-                "https://github.com/allenmurfee/pet-to-vet")
-            }
+            href="https://github.com/allenmurfee/pet-to-vet"
           >
             <BsGithub className="mr-1 h-5 w-5" />
             GitHub Repo

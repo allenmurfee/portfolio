@@ -25,10 +25,7 @@ const useRecommendations = () => {
             <Button
               color="gray"
               className="outline outline-amber-200"
-              onClick={() =>
-                (window.location.href =
-                  "https://www.linkedin.com/in/austinhague/")
-              }
+              href="https://www.linkedin.com/in/austinhague/"
             >
               <HiExternalLink className="mr-1 h-5 w-5" />
               View Austin's LinkedIn
@@ -52,10 +49,7 @@ const useRecommendations = () => {
             <Button
               color="gray"
               className="outline outline-amber-200"
-              onClick={() =>
-                (window.location.href =
-                  "https://www.linkedin.com/in/ryan-t-case/")
-              }
+              href="https://www.linkedin.com/in/ryan-t-case/"
             >
               <HiExternalLink className="mr-1 h-5 w-5" />
               View Ryan's LinkedIn

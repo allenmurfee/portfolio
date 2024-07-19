@@ -46,11 +46,19 @@ const useWorkExperience = () => {
         ))}
       </div>
       <div className="flex flex-wrap gap-2 mb-10 md:mb-auto">
-        <Button color="gray" className="outline outline-amber-200 mr-2">
+        <Button
+          href="/public/murfee_resume.pdf"
+          color="gray"
+          className="outline outline-amber-200 mr-2"
+        >
           <HiArrowCircleDown className="mr-1 h-5 w-5" />
           Download Resume
         </Button>
-        <Button color="gray" className="outline outline-amber-200">
+        <Button
+          href="https://www.linkedin.com/in/allen-murfee/"
+          color="gray"
+          className="outline outline-amber-200"
+        >
           <HiExternalLink className="mr-1 h-5 w-5" />
           View LinkedIn
         </Button>
