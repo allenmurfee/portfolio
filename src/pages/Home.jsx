@@ -12,7 +12,13 @@ const useHome = () => {
     <div className="bg-zinc-700">
       <div className="relative flex md:flex-row justify-between mt-10 mb-20">
         <HomeInfo />
-        <Photos />
+        <div className="flex-item w-1/5 md:w-1/3 md:m-auto border-0 md:rounded-3xl">
+          <Photos
+            className-="flex-item w-1/5 md:w-1/3 md:m-auto border-0 md:rounded-3xl"
+            pic={"/public/allen_and_caitlin.png"}
+            alt={"allen and caitlin"}
+          />
+        </div>
       </div>
 
       <div className="relative flex flex-col md:flex-row md:justify-between mt-8">

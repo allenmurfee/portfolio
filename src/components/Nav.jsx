@@ -13,7 +13,9 @@ import About from "../pages/About";
 const useNav = () => {
   return (
     <Navbar className="bg-zinc-700" fluid rounded>
-      <ProfileAvatar />
+      <Link to="/">
+        <ProfileAvatar />
+      </Link>
       <NavbarToggle />
       <NavbarCollapse>
         <NavbarLink className="text-white hover:text-amber-300 active:text-amber-200">
