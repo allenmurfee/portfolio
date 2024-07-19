@@ -1,17 +1,17 @@
 import Contact from "../components/Contact";
-import { List } from "flowbite-react";
 import Work from "../components/Work";
 import Recommendations from "../components/Recommendations";
 import Education from "../components/Education";
-import About from "../components/About";
+import HomeInfo from "../components/HomeInfo";
 import Photos from "../components/Photos";
 import Projects from "../components/Projects";
+import { Routes, Route, Link } from "react-router-dom";
 
 const useHome = () => {
   return (
     <div className="bg-zinc-700">
       <div className="relative flex md:flex-row justify-between mt-10 mb-20">
-        <About />
+        <HomeInfo />
         <Photos />
       </div>
 

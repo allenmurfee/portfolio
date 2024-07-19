@@ -6,6 +6,9 @@ import {
   NavbarToggle,
 } from "flowbite-react";
 import ProfileAvatar from "./ProfileAvatar";
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "../pages/Home";
+import About from "../pages/About";
 
 const useNav = () => {
   return (
@@ -13,28 +16,40 @@ const useNav = () => {
       <ProfileAvatar />
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink href="#" className="text-white">
-          Home
+        <NavbarLink className="text-white hover:text-amber-300 active:text-amber-200">
+          <Link to="/">Home</Link>
+        </NavbarLink>
+        <NavbarLink className="text-white hover:text-amber-300 active:text-amber-200">
+          <Link to="/about">About</Link>
         </NavbarLink>
         <NavbarLink
-          className="active:text-amber-200 text-white hover:text-amber-300"
+          className="text-white hover:text-amber-300 active:text-amber-200"
           href="#"
         >
-          About
-        </NavbarLink>
-        <NavbarLink className="active:text-amber-200 text-white" href="#">
           Work Experience
         </NavbarLink>
-        <NavbarLink className="active:text-amber-200 text-white" href="#">
+        <NavbarLink
+          className="text-white hover:text-amber-300 active:text-amber-200"
+          href="#"
+        >
           Recommendations
         </NavbarLink>
-        <NavbarLink className="active:text-amber-200 text-white" href="#">
+        <NavbarLink
+          className="text-white hover:text-amber-300 active:text-amber-200"
+          href="#"
+        >
           Education
         </NavbarLink>
-        <NavbarLink className="active:text-amber-200 text-white" href="#">
+        <NavbarLink
+          className="text-white hover:text-amber-300 active:text-amber-200"
+          href="#"
+        >
           Projects
         </NavbarLink>
-        <NavbarLink className="active:text-amber-200 text-white" href="#">
+        <NavbarLink
+          className="text-white hover:text-amber-300 active:text-amber-200"
+          href="#"
+        >
           Contact
         </NavbarLink>
       </NavbarCollapse>

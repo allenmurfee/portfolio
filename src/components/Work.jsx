@@ -36,10 +36,10 @@ const useWorkExperience = () => {
           >
             <div>
               <p className="text-left font-extrabold">{role.company}</p>
-              <p className="text-left">{role.title}</p>
+              <p className="text-left italic text-slate-200">{role.title}</p>
             </div>
 
-            <p className="text-left md:text-right italic">
+            <p className="text-left md:text-right italic text-slate-200">
               {role.startDate} - {role.endDate}
             </p>
           </div>
