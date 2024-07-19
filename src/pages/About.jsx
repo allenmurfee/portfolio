@@ -11,11 +11,20 @@ const useAbout = () => {
     "ExpressionEngine CMS",
     "Yarn",
   ];
-  const bootcampSkills = ["JavaScript", "React", "CSS", "HTML", "Node.js"];
+  const bootcampSkills = [
+    "React",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Node.js",
+    "GraphQL",
+    "mySQL",
+    "MongoDB",
+  ];
 
   return (
     <div>
-      <div className="relative flex md:flex-row justify-between mt-10 mb-20">
+      <div className="relative flex md:flex-row justify-between md:mt-24 mb-20">
         <div className="w-full md:w-3/5 flex justify-center items-center flex-col">
           <div className="container">
             <h1 className="text-left text-amber-200 text-4xl md:text-6xl">
@@ -48,11 +57,22 @@ const useAbout = () => {
             Software Developer, Brightpoint Community College
           </h2>
           <p className="text-left text-slate-300">
-            I've gained invaluable experience working as a developer at
+            I've gained invaluable experience working as a software developer at
             Brightpoint.
           </p>
           <div className="mt-2">
             <SkillsList skills={brightpointSkills} />
+          </div>
+        </div>
+        <div className="w-full p-4 pr-6 pl-6 mb-4 m-auto border rounded-lg border-white">
+          <h2 className="text-left text-amber-200 text-3xl mb-2 font-bold">
+            Bootcamp
+          </h2>
+          <p className="text-left text-slate-300">
+            This is where it all started.
+          </p>
+          <div className="mt-2">
+            <SkillsList skills={bootcampSkills} />
           </div>
         </div>
       </div>
