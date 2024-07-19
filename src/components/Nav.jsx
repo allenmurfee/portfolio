@@ -7,8 +7,19 @@ import {
 } from "flowbite-react";
 import ProfileAvatar from "./ProfileAvatar";
 import { Routes, Route, Link } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const useNav = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.replace("#", ""));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
   return (
     <Navbar className="bg-zinc-700" fluid rounded>
       <Link to="/">
@@ -26,29 +37,33 @@ const useNav = () => {
             About
           </Link>
         </NavbarLink>
-        <NavbarLink className="custom-navbar-link text-white hover:text-amber-200 focus:text-amber-200" href="#work">
-          Work Experience
+        <NavbarLink>
+          <Link className="text-white hover:text-amber-200" to="/#work">
+            Work
+          </Link>
         </NavbarLink>
-        <NavbarLink className="custom-navbar-link text-white hover:text-amber-300" href="#contact">
-          Contact
+        <NavbarLink>
+          <Link className="text-white hover:text-amber-200" to="/#contact">
+            Contact
+          </Link>
         </NavbarLink>
-        <NavbarLink
-          className="custom-navbar-link text-white hover:text-amber-300"
-          href="#recommendations"
-        >
-          Recommendations
+        <NavbarLink>
+          <Link
+            className="text-white hover:text-amber-200"
+            to="/#recommendations"
+          >
+            Recommendations
+          </Link>
         </NavbarLink>
-        <NavbarLink
-          className="custom-navbar-link text-white hover:text-amber-300"
-          href="#education"
-        >
-          Education
+        <NavbarLink>
+          <Link className="text-white hover:text-amber-200" to="/#education">
+            Education
+          </Link>
         </NavbarLink>
-        <NavbarLink
-          className="custom-navbar-link text-white hover:text-amber-300"
-          href="#projects"
-        >
-          Projects
+        <NavbarLink>
+          <Link className="text-white hover:text-amber-200" to="/#projects">
+            Projects
+          </Link>
         </NavbarLink>
       </NavbarCollapse>
     </Navbar>
