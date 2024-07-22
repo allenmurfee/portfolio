@@ -80,7 +80,13 @@ const useContact = () => {
         </div>
       </div>
 
-      <TextInput id="small" type="text" sizing="sm" placeholder="Subject" />
+      <TextInput
+        id="small"
+        type="text"
+        sizing="sm"
+        placeholder="Subject"
+        name="subject_line"
+      />
 
       <TextInput
         id="large"
