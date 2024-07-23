@@ -26,7 +26,7 @@ const useAbout = () => {
 
   return (
     <div>
-      <div className="relative flex flex-col md:flex-row justify-between md:mt-10 mb-20">
+      <div className="relative flex flex-col md:flex-row justify-between mt-5 md:mt-10 mb-20">
         <div className="w-full md:w-3/5 flex justify-center items-center flex-col">
           <div className="container">
             <h1 className="text-left text-amber-200 text-4xl md:text-6xl">
