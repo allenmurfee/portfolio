@@ -1,10 +1,20 @@
 import { Label, TextInput, Button } from "flowbite-react";
 import { HiOutlineMail } from "react-icons/hi";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import SubmittedMessage from "./SubmittedMessage";
 
 const useContact = () => {
   const form = useRef();
+
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [subjectLine, setSubjectLine] = useState("");
+  const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -20,11 +30,21 @@ const useContact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          clearForm();
+          setSubmitted(true);
         },
         (error) => {
           console.log("FAILED...", error.text);
         }
       );
+  };
+  const clearForm = () => {
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setPhoneNumber("");
+    setSubjectLine("");
+    setMessage("");
   };
 
   return (
@@ -38,6 +58,7 @@ const useContact = () => {
         Connect with Me!
       </h2>
 
+      {submitted ? <SubmittedMessage /> : null}
       <div className="flex flex-row justify-between">
         <div className="w-1/2 mr-1">
           <TextInput
@@ -46,6 +67,8 @@ const useContact = () => {
             sizing="sm"
             name="first_name"
             placeholder="First Name"
+            value={firstName}
+            onChange={(e) => setFirstName(e.target.value)}
           />
         </div>
         <div className="w-1/2 ml-1">
@@ -55,6 +78,8 @@ const useContact = () => {
             sizing="sm"
             placeholder="Last Name"
             name="last_name"
+            value={lastName}
+            onChange={(e) => setLastName(e.target.value)}
           />
         </div>
       </div>
@@ -67,6 +92,8 @@ const useContact = () => {
             type="text"
             sizing="sm"
             placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
         </div>
         <div className="w-1/2 ml-1">
@@ -76,6 +103,8 @@ const useContact = () => {
             sizing="sm"
             placeholder="Phone Number"
             name="user_phone_number"
+            value={phoneNumber}
+            onChange={(e) => setPhoneNumber(e.target.value)}
           />
         </div>
       </div>
@@ -86,6 +115,8 @@ const useContact = () => {
         sizing="sm"
         placeholder="Subject"
         name="subject_line"
+        value={subjectLine}
+        onChange={(e) => setSubjectLine(e.target.value)}
       />
 
       <TextInput
@@ -94,6 +125,8 @@ const useContact = () => {
         sizing="lg"
         placeholder="Write me an email!"
         name="message"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
       />
 
       <Button
