@@ -18,7 +18,7 @@ const useEducation = () => {
               Certificate in Software Development
             </Timeline.Title>
             <Timeline.Body className="text-white text-left">
-              University of Richmond, 4.0 GPA
+              University of Richmond, Final Grade: A+
             </Timeline.Body>
           </Timeline.Content>
         </Timeline.Item>

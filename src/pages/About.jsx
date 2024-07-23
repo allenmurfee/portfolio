@@ -41,10 +41,11 @@ const useAbout = () => {
             <p className="mb-5">
               In 2022, I decided it was time for a career change. While I
               enjoyed working in marketing, I knew it wasn't where I was
-              supposed to be. I'd always been interested in software
-              development, so, after getting a Bachelor's in Public Relations
-              from Virginia Tech in 2020, I went back to school to the
-              University of Richmond for a Software Development Bootcamp.
+              supposed to be, and I'd always been interested in software
+              development. So, after getting a Bachelor's degree in Public
+              Relations from Virginia Tech in 2020, I went back to school in
+              2022 for a Software Development Bootcamp at the University of
+              Richmond.
               <strong> And I never looked back.</strong>
             </p>
           </div>
