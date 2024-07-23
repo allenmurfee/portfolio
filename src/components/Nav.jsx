@@ -65,6 +65,14 @@ const useNav = () => {
             Projects
           </Link>
         </NavbarLink>
+        <NavbarLink>
+          <Link
+            className="text-white hover:text-amber-200"
+            to="https://github.com/allenmurfee/portfolio-allenmurfee"
+          >
+            Portfolio Repo
+          </Link>
+        </NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );
