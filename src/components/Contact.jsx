@@ -92,6 +92,7 @@ const useContact = () => {
             type="text"
             sizing="sm"
             placeholder="Email"
+            required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -124,6 +125,7 @@ const useContact = () => {
         type="text"
         sizing="lg"
         placeholder="Write me an email!"
+        required
         name="message"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
