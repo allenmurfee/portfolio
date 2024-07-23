@@ -26,7 +26,7 @@ const useAbout = () => {
 
   return (
     <div>
-      <div className="relative flex md:flex-row justify-between md:mt-10 mb-20">
+      <div className="relative flex flex-col md:flex-row justify-between md:mt-10 mb-20">
         <div className="w-full md:w-3/5 flex justify-center items-center flex-col">
           <div className="container">
             <h1 className="text-left text-amber-200 text-4xl md:text-6xl">
@@ -49,7 +49,7 @@ const useAbout = () => {
             </p>
           </div>
         </div>
-        <div className="flex-item w-1/5 md:w-1/3 md:m-auto border-0 md:rounded-3xl">
+        <div className="flex-item self-center w-2/3 md:w-1/3 mt-5 md:m-auto border-0 md:rounded-3xl">
           <Photos pic={"/public/waylon3.png"} alt={"waylon"} />
         </div>
       </div>
@@ -67,7 +67,7 @@ const useAbout = () => {
               <SkillsList skills={brightpointSkills} />
             </div>
           </div>
-          <div className="flex-item w-full md:w-3/5 h-full md:ml-5 shadow shadow-amber-200 mr-5">
+          <div className="flex-item w-full md:w-3/5 mt-2 h-full md:ml-5 shadow shadow-amber-200 mr-5">
             <Photos pic={"/public/brightpoint.png"} alt={"brightpoint"} />
           </div>
         </div>
@@ -84,7 +84,7 @@ const useAbout = () => {
               <SkillsList skills={bootcampSkills} />
             </div>
           </div>
-          <div className="flex-item w-full md:w-3/5 h-full md:ml-5 shadow shadow-amber-200 mr-5">
+          <div className="flex-item w-full md:w-3/5 mt-2 h-full md:ml-5 shadow shadow-amber-200 mr-5">
             <Photos
               pic={"/public/u-of-r-certificate.png"}
               alt={"university of richmond certification"}

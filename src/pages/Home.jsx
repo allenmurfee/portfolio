@@ -10,18 +10,18 @@ import { Routes, Route, Link } from "react-router-dom";
 const useHome = () => {
   return (
     <div className="bg-zinc-700">
-      <div className="relative flex md:flex-row justify-between mt-10 mb-20">
+      <div className="relative flex flex-col md:flex-row justify-between mt-10 mb-20">
         <HomeInfo />
-        <div className="flex-item w-1/5 md:w-1/3 md:m-auto border-0 md:rounded-3xl">
+        <div className="flex-item self-center w-2/3 md:w-1/3 md:m-auto mt-10 md:mb-20 border-0 md:rounded-3xl">
           <Photos
-            className-="flex-item w-1/5 md:w-1/3 md:m-auto border-0 md:rounded-3xl"
+            className-=""
             pic={"/public/allen_and_caitlin.png"}
             alt={"allen and caitlin"}
           />
         </div>
       </div>
 
-      <div className="relative flex flex-col md:flex-row md:justify-between mt-8">
+      <div className="relative flex flex-col md:flex-row md:justify-between md:mt-8">
         <Work />
         <Contact />
       </div>

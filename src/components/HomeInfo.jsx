@@ -12,7 +12,7 @@ const useHomeInfo = () => {
           <code className="bg-black">I write code.</code>
         </h1>
       </div>
-      <div className="text-left text-slate-300 mt-10 text-lg">
+      <div className="text-left text-slate-300 mt-10 text-xl">
         <p>
           I'm a Software Developer at Brightpoint Community College. I'm also a
           husband, drummer, Hokies fan, Cowboys fan, and a bad Rainbow 6 Siege

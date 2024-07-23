@@ -35,7 +35,7 @@ const useProjects = () => {
             GitHub Repo
           </Button>
         </Card>
-        <Card className="max-w-xs md:max-w-sm lg:max-w-sm bg-zinc-800 mb-3">
+        <Card className="max-w-xs md:max-w-sm lg:max-w-sm bg-zinc-800 mb-3 md:mr-3">
           <h5 className="text-2xl font-bold tracking-wide text-amber-200">
             POMODORO TIMER
           </h5>

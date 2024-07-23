@@ -45,11 +45,11 @@ const useWorkExperience = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-wrap gap-2 mb-10 md:mb-auto">
+      <div className="flex flex-col md:flex-row flex-wrap gap-2 mb-10 md:mb-auto">
         <Button
           href="/public/murfee_resume.pdf"
           color="gray"
-          className="outline outline-amber-200 mr-2"
+          className="outline outline-amber-200 md:mr-2 mb-2 md:mb-auto"
         >
           <HiArrowCircleDown className="mr-1 h-5 w-5" />
           Download Resume
