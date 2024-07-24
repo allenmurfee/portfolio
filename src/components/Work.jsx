@@ -47,7 +47,7 @@ const useWorkExperience = () => {
       </div>
       <div className="flex flex-col md:flex-row flex-wrap gap-2 mb-10 md:mb-auto">
         <Button
-          href="/public/murfee_resume.pdf"
+          href={`${import.meta.env.VITE_BASE_URL}murfee_resume.pdf`}
           color="gray"
           className="outline outline-amber-200 md:mr-2 mb-2 md:mb-auto"
         >
