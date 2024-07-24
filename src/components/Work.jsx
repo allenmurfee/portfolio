@@ -5,7 +5,7 @@ const useWorkExperience = () => {
   let resume = [
     {
       company: "Brightpoint Community College",
-      title: "Web Developer",
+      title: "Software Developer",
       startDate: "2023",
       endDate: "Current",
     },
