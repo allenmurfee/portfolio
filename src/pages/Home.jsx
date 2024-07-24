@@ -6,8 +6,13 @@ import HomeInfo from "../components/HomeInfo";
 import Photos from "../components/Photos";
 import Projects from "../components/Projects";
 import { Routes, Route, Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const useHome = () => {
+  useEffect(() => {
+    document.title = "Allen Murfee | Software Developer";
+  }, []);
+
   return (
     <div className="bg-zinc-700">
       <div className="relative flex flex-col md:flex-row justify-between mt-5">

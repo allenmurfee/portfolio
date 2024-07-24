@@ -1,7 +1,11 @@
 import SkillsList from "../components/SkillsList";
 import Photos from "../components/Photos";
+import { useEffect } from "react";
 
 const useAbout = () => {
+  useEffect(() => {
+    document.title = "About | Allen Murfee";
+  }, []);
   const brightpointSkills = [
     "JavaScript",
     "SCSS",
