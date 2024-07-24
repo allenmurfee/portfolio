@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename="/portfolio-allenmurfee">
+    <BrowserRouter basename="/portfolio">
       <>
         <Nav />
         <Routes>
