@@ -51,7 +51,10 @@ const useAbout = () => {
           </div>
         </div>
         <div className="flex-item self-center w-2/3 md:w-1/3 mt-5 md:m-auto border-0 md:rounded-3xl">
-          <Photos pic={"/public/waylon3.png"} alt={"waylon"} />
+          <Photos
+            pic={"/portfolio-allenmurfee/public/waylon3.png"}
+            alt={"waylon"}
+          />
         </div>
       </div>
       <div>
@@ -69,7 +72,10 @@ const useAbout = () => {
             </div>
           </div>
           <div className="flex-item w-full md:w-3/5 mt-2 h-full md:ml-5 shadow shadow-amber-200 mr-5">
-            <Photos pic={"/public/brightpoint.png"} alt={"brightpoint"} />
+            <Photos
+              pic={"/portfolio-allenmurfee/public/brightpoint.png"}
+              alt={"brightpoint"}
+            />
           </div>
         </div>
 
@@ -87,7 +93,7 @@ const useAbout = () => {
           </div>
           <div className="flex-item w-full md:w-3/5 mt-2 h-full md:ml-5 shadow shadow-amber-200 mr-5">
             <Photos
-              pic={"/public/u-of-r-certificate.png"}
+              pic={"/portfolio-allenmurfee/public/u-of-r-certificate.png"}
               alt={"university of richmond certification"}
             />
           </div>

@@ -15,7 +15,7 @@ const useHome = () => {
         <div className="flex-item self-center w-2/3 md:w-1/3 md:m-auto mt-5 mb-5 md:mb-10 border-0 md:rounded-3xl">
           <Photos
             className-=""
-            pic={"/public/allen_and_caitlin.png"}
+            pic={"/portfolio-allenmurfee/public/allen_and_caitlin.png"}
             alt={"allen and caitlin"}
           />
         </div>

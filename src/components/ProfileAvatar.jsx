@@ -5,7 +5,7 @@ const useProfileAvatar = () => {
     <div className="flex flex-wrap gap-2">
       <a href="#">
         <Avatar
-          img="/public/allen.jpg"
+          img="/portfolio-allenmurfee/public/allen.jpg"
           rounded
           bordered
           color="gray"
