@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d dist",
     "clean": "rm -rf dist"
   },
+  "homepage": "https://allenmurfee.github.io/portfolio-allenmurfee/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "bootstrap": "^5.3.3",
