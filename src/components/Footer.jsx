@@ -8,7 +8,7 @@ const useFooter = () => {
       <div className="w-full sm:flex sm:items-center sm:justify-between bg-zinc-700">
         <Link to="/">
           <Footer.Copyright
-            className="text-amber-200 hover:underline"
+            className="text-white hover:underline"
             by="Allen Murfee"
             year={2024}
           />
