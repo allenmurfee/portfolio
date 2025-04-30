@@ -9,6 +9,23 @@ const useProjects = () => {
         Projects
       </h2>
       <div className="flex flex-col items-center md:flex-row justify-between">
+        <Card className="max-w-xs md:max-w-sm lg:max-w-sm bg-zinc-800 mb-3 md:mr-3">
+          <h5 className="text-2xl font-bold tracking-wide text-amber-200">
+            FLASHCARD AI GENERATOR
+          </h5>
+          <p className="font-normal text-white">
+            A Next.js (React) app that uses Supabase (as a SQL database) and
+            Google's Gemini 1.5 model to generate flashcards from lecture notes.
+          </p>
+          <Button
+            color="gray"
+            className="outline outline-amber-200"
+            href="https://github.com/allenmurfee/flashcard-generator-ai"
+          >
+            <HiExternalLink className="mr-1 h-5 w-5" />
+            View App
+          </Button>
+        </Card>
         <Card className="max-w-xs md:max-w-xs lg:max-w-sm bg-zinc-800 mb-3 md:mr-3">
           <h5 className="text-2xl font-bold tracking-wide text-amber-200">
             LISTIFY
@@ -30,32 +47,6 @@ const useProjects = () => {
             color="gray"
             className="outline outline-amber-200"
             href="https://github.com/allenmurfee/todo-list-app"
-          >
-            <BsGithub className="mr-1 h-5 w-5" />
-            GitHub Repo
-          </Button>
-        </Card>
-        <Card className="max-w-xs md:max-w-sm lg:max-w-sm bg-zinc-800 mb-3 md:mr-3">
-          <h5 className="text-2xl font-bold tracking-wide text-amber-200">
-            POMODORO TIMER
-          </h5>
-          <p className="font-normal text-white">
-            This React app is a timer using the Pomodoro Technique, a method
-            that breaks your work sessions into 25-minute intervals with
-            5-minute breaks in between.
-          </p>
-          <Button
-            color="gray"
-            className="outline outline-amber-200"
-            href="https://allenmurfee.github.io/pomodoro-technique/"
-          >
-            <HiExternalLink className="mr-1 h-5 w-5" />
-            View App
-          </Button>
-          <Button
-            color="gray"
-            className="outline outline-amber-200"
-            href="https://github.com/allenmurfee/pomodoro-technique"
           >
             <BsGithub className="mr-1 h-5 w-5" />
             GitHub Repo
